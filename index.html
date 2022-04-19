@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+    <title>Worder</title>
+    <meta name="title" content="Worder">
+    <meta name="description" content="Custom Wordle score themes">
+    <meta name="theme-color" content="#e83b3b">
+    <meta property="og:title" content="Worder">
+    <meta property="og:description" content="Custom Wordle score themes‼">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Worder</h1>
+        <h2>Customize your Wordle score theme!</h2>
+    </div>
+
+    <div class="content">
+        <h2 class="subheading">Wordle Score</h2>
+        <span id="input" class="pure-u-2-3" role="textbox" contentEditable>
+            Wordle 100 X/6<br><br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛
+        </span>
+        <h2 class="subheading">Replace</h2>
+        <noscript>Please enable JavaScript to use this site</noscript>
+        <input id="black" type="text" class="pure-input-1-6" placeholder="⬛"/>
+        <input id="yellow" type="text" class="pure-input-1-6" placeholder="🟨"/>
+        <input id="green" type="text" class="pure-input-1-6" placeholder="🟩"/>
+        <h2 class="subheading">Thematic Wordle Score</h2>
+        <p id="output" class="pure-u-2-3">
+            Wordle 100 X/6<br><br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛<br>⬛⬛⬛⬛⬛
+        </p>
+        <br>
+        <a id="copy "class="pure-button" onclick="copyToClipboard();">Copy to Clipboard</a>
+    </div>
+</div>
+</body>
+<script src="./index.js"></script>
+</html>
